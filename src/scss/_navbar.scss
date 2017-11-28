@@ -1,0 +1,14 @@
+.navbar {
+    padding-bottom: 1rem;
+    background: $background_color_menu;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    img {
+        height: 60px;
+    }
+}

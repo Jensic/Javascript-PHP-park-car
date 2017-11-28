@@ -1,0 +1,13 @@
+#footer-main {
+    background: $background-color-footer;
+    font-size: 0.8rem;
+    @include text_white();
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: darken(#fff, 50%);
+            font-size: 18px;
+        }
+    }
+}

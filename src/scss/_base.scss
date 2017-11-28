@@ -1,0 +1,133 @@
+/*
+* Globals. 1 rem = 16px
+*/
+
+body {
+    @include text_black();
+}
+
+/* style.css */
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+    @include post_headings();
+}
+
+//p, .p {
+//    @include text_black();
+//}
+
+
+.main-content {
+    background-color: #003380;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 
+    
+    h1 {
+        margin: 50px 0;
+    }
+    
+    label {
+        color: #fff;
+    }
+        
+    form {
+    margin-bottom: 50px;        
+    }
+}
+
+.park-buttons {
+    margin-bottom: 25px;
+	display: block;
+	font-weight: bold;
+    background: $background-color-button; 
+    border: 0;
+    border-radius: 0.4em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 400;
+    transition: opacity 0.3s;
+    &:hover {
+    opacity: .75; 
+    }
+    &:active {
+    opacity: initial; 
+    }
+}
+
+.calc-buttons {
+    margin: 15px;
+	font-weight: bold;
+    background: $background-color-button; 
+    border: 0;
+    border-radius: 0.4em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    font-weight: 400;
+    transition: opacity 0.3s;
+    &:hover {
+    opacity: .75; 
+    }
+    &:active {
+    opacity: initial; 
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+	width: 120px;
+	height: 40px;
+	background: $background-color-h1;
+    border-radius: 5px;
+}
+
+#calculate-route {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+        opacity: .75; 
+        }
+    }
+}
+
+.col-md-6 {
+    a {
+        margin-top: 25px;
+    }
+}
+
+.col-md-12 {
+    h1 {
+        text-align: center;
+    }
+}
+
+
+
+
+

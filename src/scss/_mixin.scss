@@ -1,0 +1,42 @@
+// Mixin fo border-radius
+@mixin rounded($radius: 0.3125rem) {
+	border-radius: $radius;
+}
+
+// Mixins for the fonts
+@mixin post_headings() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $title_color;
+}
+
+// Mixins for the fonts
+@mixin text_white() {
+	font-family: 'Gafata', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4285rem;
+    color: $text_color;
+}
+
+// Mixins for the fonts
+@mixin menu() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 2.375rem;
+    line-height: 2.375rem;
+    color: $menu_color;
+}
+
+// Mixins for the fonts
+@mixin text_black() {
+	font-family: 'Gafata', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4285rem;
+    color: $text_color2;
+}
+
+
+
+
+
